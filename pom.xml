@@ -15,6 +15,8 @@
             <artifactId>javax.jms-api</artifactId>
             <version>2.0.1</version>
         </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-core -->
         <dependency>
             <groupId>org.apache.activemq</groupId>
@@ -27,12 +29,23 @@
             <artifactId>activemq-broker</artifactId>
             <version>5.13.4</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>3.6.5</version>
+        </dependency>
+
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>

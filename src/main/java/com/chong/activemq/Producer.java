@@ -6,7 +6,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.jms.*;
-//Apache ActiveMQ 是用Java语言编写的，能够支持全面的JMS和J2EE规范
 public class Producer {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Producer.class);
